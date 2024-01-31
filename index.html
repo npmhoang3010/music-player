@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/cd304926d6.js" crossorigin="anonymous"></script>
+    <!-- .player>.dashboard>header>h2.player__name+h3.player__musician^+.player__cd+.player__control -->
+    <div class="player">
+        <div class="dashboard">
+            <header>
+                <h2 class="player__status">Now playing </h2>
+                <h3 class="player__name">Dan choi sao phai khoc</h3>
+            </header>
+
+            <div class="player__cd">
+                <div class="player__cd-thumb">
+                    <img src="./assets/img/player-img-01.jpg" alt="" class="player__cd-img">
+                </div>
+            </div>
+
+            <div class="player__control">
+                <div class="btn">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <input type="range" id="progress">
+        </div>
+
+        <div class="playlist">
+            <div class="playlist__item">
+                <div class="playlist__item-thumb">
+
+                </div>
+
+                <div class="playlist__item-body">
+
+                </div>
+
+                <div class="playlist__item-option">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
